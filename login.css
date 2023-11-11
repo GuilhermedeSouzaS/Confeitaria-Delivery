@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Roca One';
+    src: url("RocaOne-Rg.ttf"); /* ou .ttf para fontes .ttf */
+    /* Adicione mais formatos se necessário (eot, svg, etc.) */
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roca One';
+
+}
+
+.logo {
+    width: 350px;
+    height: 350px;
+
+}
+
+.principal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6em;
+
+}
+
+.form__login {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form__login div {
+    position: relative;
+
+}
+
+.form__login label {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    color: #1F1F1F;
+    transition: ease .5s;
+
+}
+
+.input {
+    width: 200px;
+    outline-style: none;
+    border-bottom: solid 1px #FA6289;
+    margin: 1em 0 2em 0;
+
+}
+
+.form__login input:hover + label, .form__login input:focus + label, .form__login input:valid + label {
+    color: #FA6289;
+    font-size: .7em;
+    transform: translateY(-20px);
+    transition: ease .5s;
+
+}
+
+.principal__entrar {
+    width: 200px;
+    height: 30px;
+    color: #F1F1F1;
+    background-color: #FA6289;
+    transition: ease .5s;
+    
+}
+
+.principal__entrar:hover {
+    color: #FA6289;
+    background-color: #F1F1F1;
+    border: solid 1px #FA6289;
+    cursor: pointer;
+    transition: ease .5s;
+    
+}
+
+.principal__cadastrar {
+    color: #FA6289;
+    padding-top: 1em;
+    transition: ease .5s;
+    
+}
+
+.principal__cadastrar:hover {
+    text-decoration: underline #FA6289;
+    cursor: pointer;
+    transition: ease .5s;
+
+}

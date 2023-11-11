@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Roca One';
+    src: url("RocaOne-Rg.ttf"); /* ou .ttf para fontes .ttf */
+    /* Adicione mais formatos se necessário (eot, svg, etc.) */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F1F1F1;
+    font-family: 'Roca One';
+    padding: 1.5em;
+
+}
+
+.logo {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 2em;
+    
+}
+
+.form__cadastro {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+    
+}
+
+label {
+    padding-bottom: 0.4em;
+
+}
+
+input {
+    width: 250px;
+    outline-style: none;
+    border-bottom: solid 1px #FA6289;
+    margin-bottom: 1.2em;
+
+}
+
+
+
+.botao__cadastrar {
+    width: 250px;
+    height: 30px;
+    color: #F1F1F1;
+    background-color: #FA6289;
+
+}
+
+.botao__cadastrar:hover {
+    color: #FA6289;
+    background-color: #F1F1F1;
+    border: solid 1px #FA6289;
+
+}
