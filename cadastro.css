@@ -50,7 +50,7 @@ input {
     height: 45px;
     color: #F1F1F1;
     background-color: #FA6289;
-    margin: 1em 0 3em 0;
+    margin-top: 1em;
     transition: ease .5s;
 
 }
@@ -59,6 +59,21 @@ input {
     color: #FA6289;
     background-color: #F1F1F1;
     border: solid 1px #FA6289;
+    cursor: pointer;
+    transition: ease .5s;
+
+}
+
+.cadastro__faca--login {
+    color: #FA6289;
+    padding-top: 1em;   
+    margin: 0.2em auto 3em auto;
+    transition: ease .5s;
+    
+}
+
+.botao__faca--login:hover {
+    text-decoration: underline #FA6289;
     cursor: pointer;
     transition: ease .5s;
 

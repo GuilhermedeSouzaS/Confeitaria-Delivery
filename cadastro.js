@@ -28,7 +28,6 @@ class Perfil {
                 dadosUsuarioCadastro[5].value, 
                 dadosUsuarioCadastro[6].value);
 
-            event.preventDefault();
             console.log("Funcionou!", perfilUsuario)
 
         } else {
