@@ -11,6 +11,7 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: 'Roca One';
+    background-color: #F1F1F1;
 
 }
 
@@ -55,6 +56,7 @@ body {
     outline-style: none;
     border-bottom: solid 1px #FA6289;
     margin: 1em 0 2em 0;
+    background-color: #F1F1F1;
 
 }
 
