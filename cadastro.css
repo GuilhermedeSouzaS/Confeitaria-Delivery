@@ -51,6 +51,7 @@ input {
     color: #F1F1F1;
     background-color: #FA6289;
     margin: 1em 0 3em 0;
+    transition: ease .5s;
 
 }
 
@@ -58,5 +59,7 @@ input {
     color: #FA6289;
     background-color: #F1F1F1;
     border: solid 1px #FA6289;
+    cursor: pointer;
+    transition: ease .5s;
 
 }
