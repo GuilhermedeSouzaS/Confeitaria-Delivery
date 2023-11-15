@@ -21,6 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1em;
     /* position: relative;
     margin-bottom: 150px; */
 
@@ -55,6 +56,12 @@ body {
     padding-right: 1em;
     font-size: 1.5em;
     font-weight: 600;
+
+}
+
+.navegacao__lista--item:hover {
+    text-decoration: underline #FA6289;
+    color: #FA6289;
 
 }
 
