@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Roca One';
+    src: url("RocaOne-Rg.ttf"); /* ou .ttf para fontes .ttf */
+    /* Adicione mais formatos se necessário (eot, svg, etc.) */
+}
+
+body {
+    background-color: #F1F1F1;
+    font-family: 'Roca One';
+
+}
+
+.cabecalho {
+    width: 100%;
+    height: 300px;
+    background-image: url(img/capa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative;
+    margin-bottom: 150px; */
+
+}
+
+.navegacao {
+    width: 100%;
+    height: 200px;
+
+}
+
+.navegacao__lista {
+    max-width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    padding: 0 .5em 0 .5em;
+    overflow-x: auto;
+
+}
+
+.navegacao__lista--item {
+    width: 150%;
+    margin: 0 3em 0 3em;
+
+}
