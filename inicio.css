@@ -26,8 +26,9 @@ body {
 }
 
 .navegacao {
-    width: 100%;
-    height: 200px;
+    max-width: 100vw;
+    height: 50px;
+    overflow-x: auto;
 
 }
 
@@ -39,7 +40,6 @@ body {
     align-items: center;
     font-size: 1.3em;
     padding: 0 .5em 0 .5em;
-    overflow-x: auto;
 
 }
 
