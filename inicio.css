@@ -44,9 +44,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4em;
     padding: 1em;
-
+    
 }
 
 .navegacao__lista--item {
@@ -54,5 +53,32 @@ body {
     text-align: center;
     color: #1F1F1F;
     padding-right: 1em;
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+
+.principal {
+    width: 100%;
+    height: fit-content;
+    padding: 1.5em;
+
+}
+
+.principal__secao {
+    width: 100%;
+    height: fit-content;
+
+}
+
+.principal__secao--titulo {
+    font-size: 1.4em;
+
+
+}
+
+.principal__secao--produtos {
+    width: 100%;
+    height: 300px;
 
 }
